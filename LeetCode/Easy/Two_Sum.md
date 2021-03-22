@@ -40,7 +40,7 @@ Output: [0,1]
 
 ## Constraints: 
 
-- 2 <= `nums.length` <= 103
+- 2 <= `nums.length` <= ![img](https://bit.ly/3cRMcTS)
 - ![img](https://bit.ly/3tOUmDp) <= `nums[i]` <= ![img](https://bit.ly/38YatpX)
 - ![img](https://bit.ly/3tOUmDp) <= `target` <= ![img](https://bit.ly/38YatpX)
 - Only one valid answer exists.
