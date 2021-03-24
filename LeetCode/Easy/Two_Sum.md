@@ -54,7 +54,7 @@ Output: [0,1]
 
 <br>
 
-```
+```python
 from itertools import permutations
 
 

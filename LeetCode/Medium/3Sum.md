@@ -60,7 +60,7 @@ Output: []
 
 첫 번째 binary search를 활용하는 방법은 `a, b`를 pairwise로 선택해야하는데, 이 때 경우의 수는 `nC2`만큼 나오게 되어 `nums`의 길이가 길어질수록 매우 많은 경우의 수를 찾아야 한다는 단점이 있다. binary search를 활용하기 위해서는 범위 left와 right가 정해져야 하는데, 기준이 되는 변수가 2개이다 보니 많은 경우의 수가 존재할 수 밖에 없는 것이다. 역시나 이 방식은 time limit exceeded로 실패한다.
 
-```
+```python
 from itertools import combinations
 
 

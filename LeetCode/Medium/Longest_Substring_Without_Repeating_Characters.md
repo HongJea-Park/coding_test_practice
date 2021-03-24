@@ -65,7 +65,7 @@ Example 3과 같이 subsequence가 아닌 substring을 찾아야 한다.
 
 <br>
 
-```
+```python
 class Solution:
     def lengthOfLongestSubstring(self, string: str) -> int:
         basis, maxLength = 0, 0

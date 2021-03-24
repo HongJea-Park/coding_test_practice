@@ -53,7 +53,7 @@ Output: [8,9,9,9,0,0,0,1]
 각 숫자에 대해 자리수에 해당하는 노드의 수를 더하고 10으로 나누어 나머지, 즉 첫 번째 자리 숫자만 해당 노드에 할당하고 자릿수를 넘어가는 숫자(몫)는 다음 노드로 넘겨준다.
 이 때 각 숫자별로 노드의 길이가 다를 수 있으므로 예외를 처리해주어야 한다.
 
-```
+```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
