@@ -105,7 +105,7 @@ class Solution:
 Two Pointer를 활용하는 두 번째 방법은 이러한 문제에서 binary search보다 효율적인 모습을 보여준다. 
 Two Pointer는 두 개의 index가 정의되어야 한다. 그러기 위해 우선 기준이 되는 `basis` index를 정의하고, `basis` index 우측에 `left` index와 `right` index를 정의한다. 이후 `nums[basis] + nums[left] + nums[right] = 0` 을 만족하도록 right와 left의 범위를 좁혀나간다. 이러한 방식은 `left` index와 `right` index를 순차적으로 이동시키기 때문에 binary search보다 비효율적이라고 생각하였으나, binary search는 `left` index와 `right` index에 대한 경우의 수를 고려해야하기 때문에 해당 문제에선 더 효율적인 것 같다.
 
-```
+```python
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -145,7 +145,7 @@ class Solution:
 이후 `-(pos+neg)` 가 nums에 있었는지 확인하고, 몇 가지 경우를 고려하여 3개의 조건문을 통해 정답에 append 해주면 효율적으로 풀리는 것을 확인할 수 있다.
 이 풀이법은 속도측면에서는 효율적이나 메모리 측면에서는 비효율적이다. `Counter` 모듈의 결과를 저장해야하며 nums가 존재함에도 불구하고 positive numbers와 negative numbers를 따로 저장하고 있어야하기 때문이다.
 
-```
+```python
 from collections import Counter
 
 

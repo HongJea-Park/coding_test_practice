@@ -64,5 +64,25 @@ class Solution:
             if nums[i] + nums[j] == target:
                 return [i, j]
 ```
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        lenNums = len(nums)
+        for i in range(lenNums):
+            for j in range(i+1, lenNums):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+```
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        numDict = {}
+        for i, n in enumerate(nums):
+            if target-n in numDict:
+                return [numDict[target-n], i]
+            numDict[n] = i
+```
 ![Imgur](https://i.imgur.com/EWtwEja.png)
 ![Imgur](https://i.imgur.com/EFXfUMF.png)
