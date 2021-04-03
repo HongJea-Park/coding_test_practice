@@ -2,7 +2,7 @@
 
 ## 코딩 테스트 대비 연습문제 풀이 - Python <br>
 
-[Notion for Study Group Workspace](https://www.notion.so/Notice-a3bb53f15d24455593f671a9f98cbdc3)<br>
+[Notion for Coding Test Study Group Workspace](https://www.notion.so/Notice-a3bb53f15d24455593f671a9f98cbdc3)<br>
 
 <br>
 
@@ -30,7 +30,7 @@
 
 <br>
 
-### 참고 교재(21.03.19 추가)
+### 스터디 참고 교재(21.03.19 추가)
 
 **파이썬 알고리즘 인터뷰**
 
