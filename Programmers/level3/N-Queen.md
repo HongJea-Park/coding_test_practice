@@ -47,7 +47,7 @@
 
 위 문제를 보고 가장 먼저 든 생각은 DFS를 통해 탐색하는 방법이었다. 체스판에서 퀸의 위치를 좌표로 정했을 때 방문 가능한 노드들에 대해 DFS로 순차적으로 방문하며 다음 퀸이 위치할 수 있다면 또 다음 퀸의 위치를 찾아가면 되는 것이다. 이러한 방식으로 가능한 모든 경우를 추적하는 방법을 Backtracking 이라고 따로 부르는 듯 하다.
 
-Backtracking은 좀 더 general purpose algorithm으로 볼 수 있으며, DFS는 backtracking의 specific form이라고 한다. DFS는 tree 구조에서나 적용시킬 수 있기 때문으로 보인다.
+Backtracking은 좀 더 general purpose algorithm으로 볼 수 있으며, DFS는 backtracking의 specific form이라고 한다.
 
 Backtracking은 다음과 같은 원리로 작동된다.
 
